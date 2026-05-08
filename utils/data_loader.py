@@ -10,7 +10,7 @@ from utils.functions import *
 import utils.hypergraph_utils as hgut
 
 
-def get_DTU_data(model, name="S1", timelen=1, data_document_path="E:/EEG_data/DTU/DATA_preproc"):
+def get_DTU_data(model, name="S1", timelen=1, data_document_path="/data1/xyhe/Data/DTU_mat"):
     class CustomDatasets(Dataset):
         # initialization: data and label
         def __init__(self, data, label):
@@ -489,7 +489,7 @@ def get_DTU_data(model, name="S1", timelen=1, data_document_path="E:/EEG_data/DT
     return train_loader, valid_loader, test_loader
 
 
-def get_KUL_data(model, name="S1", timelen=1, data_document_path="E:/EEG_data/KUL_single_siongle3"):
+def get_KUL_data(model, name="S1", timelen=1, data_document_path="/data1/xyhe/Data/KUL_mat"):
     class CustomDatasets(Dataset):
         # initialization: data and label
         def __init__(self, data, label):
