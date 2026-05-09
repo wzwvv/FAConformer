@@ -21,7 +21,7 @@
 - **Band-Wise Auxiliary Supervision**: Ensures effective optimizations of each frequency branch
 
 <div align="center">
-<img width="1551" height="774" alt="Image" src="https://github.com/user-attachments/assets/354a1807-7c66-4f92-bf23-4516161dbcf1" />
+<img width="1809" height="903" alt="Image" src="https://github.com/user-attachments/assets/af20aaf0-5a1f-4d10-abd4-6bc26b9adb40" />
 </div>
 
 ## Features
@@ -35,9 +35,7 @@
 
 Most related approaches have not yet fully explored hierarchical modeling of band-specific EEG representations or adaptive integration of unequal frequency-band contributions for final decision-making. FAConformer forms a complete frequency-aware hierarchical decoding pipeline, rather than simply combining multi-band decomposition and feature fusion.
 
-<div align="center">
-<img width="786" height="1146" alt="Image" src="https://github.com/user-attachments/assets/5c701663-66af-4051-b3a1-adb9bc6573b0" />
-</div>
+<img width="831" height="1155" alt="Image" src="https://github.com/user-attachments/assets/337a4ea9-1801-4e24-8249-659e6af587cf" />
 
 ## Code Structure
 ```
@@ -92,7 +90,7 @@ To further verify the cross-subject robustness and generalization ability of the
 To analyze how the FAA module characterizes band importance during cross-band fusion, we visualized the subject-wise self-attention maps learned by FAA on both DTU and KUL datasets.
 
 <div align="center">
-<img width="1319" height="1455" alt="Image" src="https://github.com/user-attachments/assets/d1f3c73f-5429-4d36-916a-8b1fab3f982c" />
+<img width="1341" height="1458" alt="Image" src="https://github.com/user-attachments/assets/4890a1ca-260e-4c2f-8a49-c6ad31276e4c" />
 </div>
 
 ### Effect of Frequency-Aware Modeling
