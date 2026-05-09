@@ -37,7 +37,7 @@ Most related approaches have not yet fully explored hierarchical modeling of ban
 
 <div align="center">
 <!-- <img width="831" height="1155" alt="Image" src="https://github.com/user-attachments/assets/337a4ea9-1801-4e24-8249-659e6af587cf" /> -->
-<img src="https://github.com/user-attachments/assets/337a4ea9-1801-4e24-8249-659e6af587cf" style="max-width: 900px; width: 100%; height: auto;" />
+<img src="https://github.com/user-attachments/assets/337a4ea9-1801-4e24-8249-659e6af587cf" style="max-width: 500px; width: 100%; height: auto;" />
 </div>
 
 ## Code Structure
