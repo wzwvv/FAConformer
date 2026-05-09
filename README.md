@@ -36,7 +36,7 @@
 Most related approaches have not yet fully explored hierarchical modeling of band-specific EEG representations or adaptive integration of unequal frequency-band contributions for final decision-making. FAConformer forms a complete frequency-aware hierarchical decoding pipeline, rather than simply combining multi-band decomposition and feature fusion.
 
 <div align="center">
-<img width="2462" height="1691" alt="Image" src="https://github.com/user-attachments/assets/b9947087-f06f-4fc4-b68c-c8b230abf063" />
+<img width="1509" height="1320" alt="Image" src="https://github.com/user-attachments/assets/7ee40ed1-3be5-472c-be79-aba739c77b89" />
 </div>
 
 ## Code Structure
