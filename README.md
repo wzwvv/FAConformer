@@ -106,7 +106,7 @@ To further examine the effect of frequency-aware modeling on representation lear
 To evaluate the robustness of FAConformer to hyperparameter selection, we analyzed the sensitivity of three key model parameters on both DTU and KUL datasets.
 
 <div align="center">
-<img width="648" height="747" alt="Image" src="https://github.com/user-attachments/assets/14e1e1b3-e672-47f6-9ea0-136021690a87" />
+<img width="1689" height="1152" alt="Image" src="https://github.com/user-attachments/assets/3d226a2b-3574-4d98-a06f-4e16753b79be" />
 </div>
 
 ---
