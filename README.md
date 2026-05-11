@@ -35,9 +35,8 @@
 
 Most related approaches have not yet fully explored hierarchical modeling of band-specific EEG representations or adaptive integration of unequal frequency-band contributions for final decision-making. FAConformer forms a complete frequency-aware hierarchical decoding pipeline, rather than simply combining multi-band decomposition and feature fusion.
 
-<div align="center">
-<img width="1509" height="1320" alt="Image" src="https://github.com/user-attachments/assets/7ee40ed1-3be5-472c-be79-aba739c77b89" />
-</div>
+<img width="641" height="957" alt="image" src="https://github.com/user-attachments/assets/da4ea73c-5f57-4384-858a-32965862880d" />
+
 
 ## Code Structure
 ```
@@ -77,8 +76,8 @@ Twelve EEG decoding models were reproduced and compared with the proposed FAConf
 FAConformer conducted experiments on two representative public AAD datasets. AAD datasets can be downloaded from [DTU](https://zenodo.org/records/1199011) and [KUL](https://zenodo.org/records/4004271).
 
 - Auditory Attention Detection:
-  - DTU: 18 subjects, 64 channels, 512 Hz sampling rate, Danish speech stimuli presented from ±60° directions.
-  - KUL: 16 subjects, 64 channels, 8192 Hz sampling rate, Dutch speech stimuli presented from ±90° directions.
+  - DTU: 18 subjects, 64 channels, 512 Hz sampling rate, downsampled to 64 Hz, Danish speech stimuli presented from ±60° directions.
+  - KUL: 16 subjects, 64 channels, 8,192 Hz sampling rate, downsampled to 128 Hz, Dutch speech stimuli presented from ±90° directions.
 
 ## Visualizations
 ### Subject-wise Classification Performance
