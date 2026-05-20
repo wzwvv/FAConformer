@@ -769,7 +769,7 @@ def run_experiment(seed, time_len=2, dataset="DTU", is_first_seed=False):
         if is_first_seed and test_batch_time is not None:
             test_batch_times.append(test_batch_time)
         
-        print(f"Sunject {name} (Seed{seed}) Valid loss: {loss}, Accuracy: {acc.item()}, Training Time: {train_time:.2f}s")
+        print(f"Subject {name} (Seed{seed}) Valid loss: {loss}, Accuracy: {acc.item()}, Training Time: {train_time:.2f}s")
         
         results.append({
             "subject": name,
