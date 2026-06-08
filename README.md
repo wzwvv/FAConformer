@@ -1,6 +1,6 @@
 <div align="center">
 <h1>FAConformer</h1>
-<h3>Frequency-Aware Convolutional Transformer for Auditory Attention Detection</h3>
+<h3>Frequency-Aware Convolutional Transformer for Auditory Attention Decoding</h3>
 
 [Ziwei Wang](https://scholar.google.com/citations?user=fjlXqvQAAAAJ&hl=en)<sup>1</sup>, [Xingyi He](https://github.com/BAY040210)<sup>1</sup>, [Tianwang Jia](https://github.com/TianwangJia)<sup>1</sup>, [Hongbin Wang](https://github.com/WangHongbinary)<sup>1</sup>, and [Dongrui Wu](https://scholar.google.com/citations?user=UYGzCPEAAAAJ&hl=en)<sup>1 :email:</sup>
 
@@ -10,11 +10,11 @@
 
 </div>
 
-> This repository contains the implementation of our paper: **"FAConformer: Frequency-Aware Convolutional Transformer for Auditory Attention Detection"**, serving as a **benchmark codebase** for auditory attention detection models. We implemented and fairly evaluated 13 state-of-the-art auditory attention detection models, including CNN-based, AAD-speciﬁc, and CNN-Transformer hybrid auditory attention detection models.
+> This repository contains the implementation of our paper: **"FAConformer: Frequency-Aware Convolutional Transformer for Auditory Attention Decoding"**, serving as a **benchmark codebase** for auditory attention decoding models. We implemented and fairly evaluated 13 state-of-the-art auditory attention decoding models, including CNN-based, AAD-speciﬁc, and CNN-Transformer hybrid auditory attention decoding models.
 
 ## Overview
 
-**FAConformer**, a **frequency-aware convolutional Transformer** network tailored for auditory attention detection:
+**FAConformer**, a **frequency-aware convolutional Transformer** network tailored for auditory attention decoding:
 
 - **Within-Band Encoding**: Learns band-speciﬁc representations
 - **Cross-Band Hierarchical Fusion**: Models adaptive cross-band dependencies
@@ -76,7 +76,7 @@ Twelve EEG decoding models were reproduced and compared with the proposed FAConf
 ## Datasets
 FAConformer conducted experiments on two representative public AAD datasets. AAD datasets can be downloaded from [DTU](https://zenodo.org/records/1199011) and [KUL](https://zenodo.org/records/4004271).
 
-- Auditory Attention Detection:
+- Auditory Attention Decoding:
   - DTU: 18 subjects, 64 channels, 512 Hz sampling rate, downsampled to 64 Hz, Danish speech stimuli presented from ±60° directions.
   - KUL: 16 subjects, 64 channels, 8,192 Hz sampling rate, downsampled to 128 Hz, Dutch speech stimuli presented from ±90° directions.
 
