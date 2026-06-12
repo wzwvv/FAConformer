@@ -49,7 +49,8 @@ FAConformer/
 │   ├── FAConformer.py        # Frequency-Aware Convolutional Transformer (Ours)
 │   ├── DARNet.py             # AAD-Speciﬁc model
 │   ├── DBPNet.py             # AAD-Speciﬁc model
-│   └── DHGCN.py              # AAD-Speciﬁc model
+│   ├── DHGCN.py              # AAD-Speciﬁc model
+│   └── Others                # CNN-Transformer models, see our previous work DBConformer repo
 │
 ├── utils/                    # Helper functions and common utilities
 │   ├── data_loader.py        # Chronological data splitting
